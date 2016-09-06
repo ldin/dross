@@ -417,10 +417,14 @@ footer h5 {
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	/*background-color: #229ac8;*/
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
+	/*background-repeat: repeat-x;*/
+	/*border-color: #1f90bb #1f90bb #145e7a;*/
+	background-color: #339999;
+	background-image: linear-gradient(to bottom, #339999, #208080);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #2F9A9A #157777 #116363;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
 	background-color: #1f90bb;
@@ -761,3 +765,6 @@ h2.price {
 .main-phone .fa{font-size: 28px; color: #339999;}
 
 .product-thumb .price {font-size: 18px;}
+.product-thumb .caption h4{	min-height: 52px; padding: 10px;}
+.product-thumb .caption .description{	min-height: 80px;}
+.product-thumb .image a { padding-top: 20px;}
