@@ -765,6 +765,6 @@ h2.price {
 .main-phone .fa{font-size: 28px; color: #339999;}
 
 .product-thumb .price {font-size: 18px;}
-.product-thumb .caption h4{	min-height: 52px; padding: 10px;}
+.product-thumb .caption h4{	min-height: 68px; padding: 10px; margin-bottom: 0;}
 .product-thumb .caption .description{	min-height: 80px;}
 .product-thumb .image a { padding-top: 20px;}
