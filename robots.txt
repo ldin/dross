@@ -1,3 +1,5 @@
+Host: drosselshop.ru
+
 User-agent: *
 Disallow: /*route=account/
 Disallow: /*route=affiliate/
