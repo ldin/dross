@@ -49,8 +49,9 @@
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
-    <?php echo $currency; ?>
-    <?php echo $language; ?>
+    <div class="col-sm-4"><?php echo $search; ?></div>
+    <?php //echo $currency; ?>
+    <?php //echo $language; ?>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
         <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
@@ -78,7 +79,7 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <div id="logo">
           <?php if ($logo) { ?>
             <?php if ($home == $og_url) { ?>
@@ -91,9 +92,10 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+      <div class="col-sm-4 col-sm-offset-2">
+        <a href="<?php echo $contact; ?>" class="main-phone"><i class="fa fa-phone"></i> <?php echo $telephone; ?></a>
       </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
+      <!-- <div class="col-sm-3"><?php echo $cart; ?></div> -->
     </div>
   </div>
 </header>
