@@ -94,7 +94,9 @@
       </div>
       <div class="col-sm-6">
         <a href="<?php echo $contact; ?>" class="main-phone"><i class="fa fa-phone"></i> <?php echo $telephone; ?></a>
-        <a href="<?php echo $contact; ?>" class="main-phone"><i class="fa fa-phone"></i> <?php echo $fax; ?></a>
+        <?php if (!empty($fax)) { ?>
+          <a href="<?php echo $contact; ?>" class="main-phone"><i class="fa fa-phone"></i> <?php echo $fax; ?></a>
+        <?php } ?>
       </div>
       <!-- <div class="col-sm-3"><?php echo $cart; ?></div> -->
     </div>
